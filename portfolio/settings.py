@@ -133,10 +133,13 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 try:
-    from local_settings import *
+    from .local_settings import *
 except ImportError:
     pass
+<<<<<<< HEAD
 
 
 SECRET_KEY = 'y@^rzn(dwt0q(4vz$-l=p+20z%uoegg!n^@)48)3y_a#h2khotdogvf(%rh'
 ALLOWED_HOSTS = ['104.248.146.104']
+=======
+>>>>>>> d371ebc23844d136b209d7b0a732880861a73216
