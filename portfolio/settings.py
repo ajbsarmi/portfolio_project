@@ -136,3 +136,7 @@ try:
     from local_settings import *
 except ImportError:
     pass
+
+
+SECRET_KEY = 'y@^rzn(dwt0q(4vz$-l=p+20z%uoegg!n^@)48)3y_a#h2khotdogvf(%rh'
+ALLOWED_HOSTS = ['104.248.146.104']
