@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'y@^rzn(dwt0q(4vz$-l=p+20z%uo!n^@)48)3y_a#h2kvf(%rh'
-
+SECRET_KEY = 'y@^rzn(dwt0q(4vz$-l=p+20z%uoegg!n^@)48)3y_a#h2khotdogvf(%rh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -136,10 +136,6 @@ try:
     from .local_settings import *
 except ImportError:
     pass
-<<<<<<< HEAD
 
 
-SECRET_KEY = 'y@^rzn(dwt0q(4vz$-l=p+20z%uoegg!n^@)48)3y_a#h2khotdogvf(%rh'
-ALLOWED_HOSTS = ['104.248.146.104']
-=======
->>>>>>> d371ebc23844d136b209d7b0a732880861a73216
+
